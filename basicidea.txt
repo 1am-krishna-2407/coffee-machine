@@ -1,0 +1,14 @@
+Create a python program which on execution makes a screen in the terminal itself,
+ where you have 4 dummy options, you can only select them with the help of arrow keys
+  arrow up and down will select the options and arrow right as well as the enter key will select 
+  the option. Based on these 4 options, return back to the previous terminal screen and render some 
+  output over there. Any output will suffice. Try making this as a coffee shop application for the
+   terminal, where you have 4 options, have a latte, have a chocolate coffee, have some snacks, 
+   just have the wifi password. Where if the user selects coffee, the output to the previous screen will
+    be Here is your coffee, if the user selects chocolate coffee, it returns the output as “Here is your
+     chocolate coffee”, on occasion of the third one, it returns “Here are your snacks. They include 
+     sandwitches and biscuits”. And the 4th one will yeild the output as “The wifi password here is ‘1234567890’. 
+
+ 
+
+Now the question is how are you going to achieve this. So try exploring the curses library in python. Try making this application your own and then push it to github as a public repository so that anybody can have a look.
